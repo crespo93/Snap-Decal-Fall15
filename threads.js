@@ -2007,6 +2007,10 @@ Process.prototype.reportSum = function (a, b) {
     return +a + (+b);
 };
 
+Process.prototype.reportSquare = function(a) {
+    return +a * (+a);
+};
+
 Process.prototype.reportDifference = function (a, b) {
     return +a - +b;
 };
